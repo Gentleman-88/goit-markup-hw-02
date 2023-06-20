@@ -58,13 +58,12 @@ body{
         letter-spacing: 0.02em;
 }
 
-.navigation :hover{
+.navigation:hover,
+.navigation:active{
+    color: #404bbf;
     color: #404bbf;
 }
 
-.navigation :active {
-    color: #404bbf;
-}
 
 .information{
     font-family: 'Roboto';
@@ -77,14 +76,11 @@ body{
         --color-for-contacts: #434455;
 }
 
-.information :hover{
-    color: #404bbf;
-}
-
+.information:hover,
 .information :active{
     color: #404bbf;
+    color: #404bbf;
 }
-
 
 .contact-info{
     font-style: normal;
@@ -117,17 +113,15 @@ body{
         line-height: 1.5;  
         letter-spacing: 0.04em;
         color: #FFFFFF;
-        cursor: pointer
+        cursor: pointer;
         
 }
 
-.button-order :hover{
+.button-order:hover,
+.button-order:focus{
     background-color: #404BBF;
 }
 
-.button-order :active{
-    color: #404BBF;
-}
 
 .section-two-headlines{
     font-family: 'Roboto';
