@@ -12,6 +12,7 @@ body{
     sans-serif;
     --color-for-url: #2E2F42;
     --color-for-contacts: #434455;
+    --color-for-logo: #4d5ae5;
 }
 
 
@@ -34,13 +35,12 @@ body{
 }
 
 .webstudio{
-    font-family: 'Raleway';
-        font-style: normal;
+    font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
-            text-transform: uppercase;
+        text-transform: uppercase;
 }
 
 .list{
@@ -142,6 +142,7 @@ body{
         line-height: 1.11;
         text-align: center;
         text-transform: capitalize;
+        letter-spacing: 0.02em;
         color: #2E2F42;
 }
 
