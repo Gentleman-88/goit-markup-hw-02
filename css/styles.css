@@ -57,10 +57,15 @@ body{
         font-size: 16px;
         line-height: 24px;
         color: #2E2F42;
+        --color-for-url: #2E2F42;
         letter-spacing: 0.02em;
 }
 
 .navigation :hover{
+    color: #404bbf;
+}
+
+.navigation :active {
     color: #404bbf;
 }
 
@@ -72,15 +77,21 @@ body{
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #434455;
-        
+        --color-for-contacts: #434455;
 }
 
 .information :hover{
     color: #404bbf;
 }
 
+.information :active{
+    color: #404bbf;
+}
+
+
 .contact-info{
     font-style: normal;
+
 }
 
 .block-1{
@@ -115,6 +126,10 @@ body{
 
 .button-order :hover{
     background-color: #404BBF
+}
+
+.button-order :active{
+    color: #404BBF;
 }
 
 .block-2-headlines{
