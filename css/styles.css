@@ -26,8 +26,6 @@ body{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
@@ -39,7 +37,6 @@ body{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -94,11 +91,11 @@ body{
 
 }
 
-.block-1{
+.section-one{
     background-color: #2E2F42;
 }
 
-.block-1-headline{
+.section-one-headline{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -125,14 +122,14 @@ body{
 }
 
 .button-order :hover{
-    background-color: #404BBF
+    background-color: #404BBF;
 }
 
 .button-order :active{
     color: #404BBF;
 }
 
-.block-2-headlines{
+.section-two-headlines{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -142,7 +139,7 @@ body{
         color: #2E2F42;
 }
 
-.block-2-p{ 
+.section-two-p{ 
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -152,7 +149,7 @@ body{
         color: #434455;
 }
 
-.block-3-headline{
+.section-three-headline{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -164,7 +161,7 @@ body{
         color: #2E2F42;
 }
 
-.section-4 {
+.section-four {
     background-color: #F4F4FD
 }
 
