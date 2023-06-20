@@ -13,6 +13,8 @@ body{
    --background-color:#FFFFFF;
    --primary-font: "Roboto",
     sans-serif;
+    --color-for-url: #2E2F42;
+    --color-for-contacts: #434455;
 }
 
 
@@ -31,6 +33,7 @@ body{
         font-weight: 800;
         font-size: 18px;
         line-height: 21px;
+        color:#2e2f42;
 }
 
 .webstudio{
@@ -57,6 +60,10 @@ body{
         letter-spacing: 0.02em;
 }
 
+.navigation :hover{
+    color: #404bbf;
+}
+
 .information{
     font-family: 'Roboto';
         font-style: normal;
@@ -66,6 +73,14 @@ body{
         letter-spacing: 0.02em;
         color: #434455;
         
+}
+
+.information :hover{
+    color: #404bbf;
+}
+
+.contact-info{
+    font-style: normal;
 }
 
 .block-1{
@@ -87,14 +102,19 @@ body{
     background-color:#4D5AE5;
     width: 169px;
         height: 56px;
-        font-family: "Roboto" sans-serif;
+        font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;  
         letter-spacing: 0.04em;
         color: #FFFFFF;
+        cursor: pointer
         
+}
+
+.button-order :hover{
+    background-color: #404BBF
 }
 
 .block-2-headlines{
@@ -122,7 +142,14 @@ body{
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.section-4 {
+    background-color: #F4F4FD
 }
 
 .block-4-headline{
@@ -130,7 +157,15 @@ body{
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.list-our-team{
+    background-color: #FFFFFF
 }
 
 .block-4-h3{
@@ -153,6 +188,7 @@ body{
         color: #434455;
 }
 
+
 .footer-p{
     font-family: 'Roboto';
         font-style: normal;
@@ -163,18 +199,15 @@ body{
         color: #F4F4FD;
 }
 
-footer{
+.footer{
     background-color: #2E2F42;
 }
 
 .webstudio-footer{
-    font-family: 'Raleway';
-        font-style: normal;
+    font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
-        display: flex;
-        align-items: center;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #F4F4FD;
