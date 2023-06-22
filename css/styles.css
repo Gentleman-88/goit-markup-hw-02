@@ -33,12 +33,6 @@ body{
 }
 
 .logo-studio{
-    font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: #2E2F42;
 }
 
@@ -47,13 +41,11 @@ body{
 }
 
 .navigation{
-    font-family: 'Roboto';
-        font-style: normal;
+   
         font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         color: #2E2F42;
-        --color-for-url: #2E2F42;
         letter-spacing: 0.02em;
 }
 
@@ -65,14 +57,12 @@ body{
 
 
 .information{
-    font-family: 'Roboto';
-        font-style: normal;
+  
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        --color-for-contacts: #434455;
 }
 
 .information:hover,
@@ -91,8 +81,6 @@ body{
 }
 
 .section-one-headline{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -104,7 +92,6 @@ body{
 .button-order{
     background-color:#4D5AE5;
         font-family: "Roboto", sans-serif;
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;  
@@ -121,29 +108,24 @@ body{
 
 
 .section-two-headlines{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        --color-for-url:#2E2F42;
 }
 
 .section-two-p{ 
-    font-family: 'Roboto';
-        font-style: normal;
+   
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;   
         color: #434455;
 }
 
 .section-three-headline{
-    font-family: 'Roboto';
-        font-style: normal;
+   
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -164,11 +146,10 @@ body{
 
 
 .footer-p{
-    font-family: 'Roboto';
-        font-style: normal;
+ 
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;   
         color: #F4F4FD;
 }
@@ -189,12 +170,6 @@ body{
 }
 
 .footer-studio{
-font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #F4F4FD;
 }
 
